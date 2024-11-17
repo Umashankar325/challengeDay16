@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", serif;
+}
+nav {
+  width: 100%;
+  height: 100px;
+  /* background-color: red; */
+  position: fixed;
+  top: 0;
+  padding: 0px 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 60%;
+}
+nav button {
+  height: 40px;
+  width: 150px;
+  color: white;
+  background-color: black;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+}
+.pag1 {
+  margin-top: 100px;
+  width: 100vw;
+  height: 628px;
+  /* background-color: green; */
+  background: url(https://www.aleydasolis.com/wp-content/uploads/2017/08/homepage-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  height: 400px;
+  width: 400px;
+  transform: translate(-50%, -50%);
+
+  /* background-color: red; */
+  color: coral;
+}
+
+.pag1 h1 {
+  color: #303d53;
+  font-size: 60px;
+}
+.pag1 h2 {
+  color: #7f8795;
+  font-size: 40px;
+  margin-top: 30px;
+}
+.pag1 button {
+  margin-top: 30px;
+  height: 50px;
+  width: 200px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
